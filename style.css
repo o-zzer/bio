@@ -1,5 +1,5 @@
 body{
-    background-image: url(./images/back.jpg);
+    background-image: url(./images/light.jpg);
     height: 100%;
     margin-top: 25px;
     margin-bottom: 10px;
@@ -22,8 +22,10 @@ body{
     margin-top: 0.4em;
     margin-left: auto;
     margin-right: auto;
+    z-index: 2;
     cursor:default;
-    animation: animasyonlogo 4s infinite;
+    animation: animasyonlogo 3s infinite;
+
   }
   @keyframes animasyonlogo {
 100% {
@@ -52,6 +54,8 @@ body{
 
 
 }
+
+
 .login{
     background-color: rgba(153, 179, 180, 0.459);
     color: rgb(255, 255, 255);
@@ -70,7 +74,7 @@ body{
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    top: 120px;
+    top: 110px;
     box-shadow: 10px 10px 10px  rgb(0, 0, 0);
     background-color:  10% transparent ;
     max-width: 255px;
